@@ -1,7 +1,7 @@
 // مكون إدارة الحالة الأوفلاين
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import SyncManager from '../utils/syncManager.js';
-import LocalDatabase from '../utils/localDatabase.js';
+import { syncData } from './syncManager
+import LocalDatabase from './localDatabase.js';
 
 const OfflineContext = createContext();
 
